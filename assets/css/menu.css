@@ -4,10 +4,6 @@
     transition: 0.3s;
 }
 
-body {
-    background-color: red;
-}
-
 .link--page:hover {
     opacity: 0.7;
 }
