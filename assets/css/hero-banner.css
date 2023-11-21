@@ -16,7 +16,7 @@
     text-transform: uppercase;
 }
 
-@media (max-width: 425px) {
+@media (min-width: 425px) {
     .hero--banner p {
         font-size: 30pt;
     }
