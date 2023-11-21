@@ -1,0 +1,29 @@
+.hero--banner {
+    background: url('../img/bg.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero--banner p {
+    color: #fff;
+    text-shadow: 1px 1px 2px#23232e;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+@media (max-width: 425px) {
+    .hero--banner p {
+        font-size: 30pt;
+    }
+}
+
+@media (min-width: 768px) {
+    .hero--banner p {
+        font-size: 50pt;
+    }
+}

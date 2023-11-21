@@ -1,0 +1,9 @@
+/* Cores */
+:root {
+    --light-bg: #f4f4f4;
+    --dark-bg: #333;
+    --light-text: #333;
+    --dark-text: #f4f4f4;
+    --primary: #007bff;
+    --secondary: #6c757d;
+}
