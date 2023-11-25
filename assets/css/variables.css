@@ -7,3 +7,24 @@
     --primary: #007bff;
     --secondary: #6c757d;
 }
+
+:root {
+    --font-monospace: 'Source Code Pro', sans-serif;
+    --font-sans: 'Source Code Pro', monospace;
+    --font-awesome: 'Font Awesome 5 Free';
+    --base-duration: 250ms;
+    --primary-card: #f1c40f;
+    --accent: #46627f;
+    --white: whitesmoke;
+    --max-width: 1200px;
+    --sm: 20rem;
+    --med: 48rem;
+    --lg: 64rem;
+}
+
+:root {
+    --color-white: #fff;
+    --color-prime: #5ad67d;
+    --color-grey: #e2e2e2;
+    --color-grey-dark: #a2a2a2;
+}

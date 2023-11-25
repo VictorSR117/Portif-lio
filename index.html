@@ -4,6 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Press+Start+2P&family=Quicksand:wght@400;500&family=Roboto&family=Ubuntu:wght@700&display=swap"
+        rel="stylesheet">
     <title>Meu Portfólio Profissional</title>
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="shortcut icon" type="image/jpg" href="assets/img/logo.ico" />
@@ -11,7 +19,7 @@
 
 <body id="body" class="light-theme">
     <header>
-        <nav class="navbar">
+        <nav class="navbar" id="menu">
             <a href="/">
                 <img class="logo" src="assets/img/logo.png" alt="logo pessoal">
             </a>
@@ -21,10 +29,11 @@
                 <div class="line3"></div>
             </div>
             <ul class="nav-list">
-                <li><a href="#" class="link--page">Início</a></li>
-                <li><a href="#" class="link--page">Sobre</a></li>
-                <li><a href="#" class="link--page">Projetos</a></li>
-                <li><a href="#" class="link--page">Contato</a></li>
+                <li><a href="/" class="link--page">Início</a></li>
+                <li><a href="#about" class="link--page">Sobre</a></li>
+                <li><a href="#projects" class="link--page">Projetos</a></li>
+                <li><a href="#services" class="link--page">Serviços</a></li>
+                <li><a href="#contact" class="link--page">Contato</a></li>
 
                 <figure class="theme--button">
                     <img src="assets/img/moon.png" id="themeToggle" class="themeIcon" alt="icone do tema da tela">
@@ -38,114 +47,191 @@
             <p>Soluções Web</p>
         </div>
 
-        <div class="container">
-            <div class="solutions">
-                <div class="solution">
-                    <h3 class="solution--title">Desenvolvimento de APIs sob demanda</h3>
-                    <p class="solution--description">
-                        lidar com backend por der um desafio para muitas pessoas, pensando nisso
-                        ofereço serviço para o desenvolvimento de APIs sob demanda, faço o seu backend de maneira rápida
-                        e precisa utilizando Node.js e express. Porem caso precise de implementação em utra tecnologia
-                        podemos negociar tempo e tamanho de projeto.
-                    </p>
-                    <img class="solution--img" src="https://appmaster.io/api/_files/PqV7MuNwv89GrZvBd4LNNK/download/"
-                        alt="API">
-                </div>
-                <div class="solution">
-                    <h3 class="solution--title">Desenvolvimento de APIs sob demanda</h3>
-                    <p class="solution--description">
-                        lidar com backend por der um desafio para muitas pessoas, pensando nisso
-                        ofereço serviço para o desenvolvimento de APIs sob demanda, faço o seu backend de maneira rápida
-                        e precisa utilizando Node.js e express. Porem caso precise de implementação em utra tecnologia
-                        podemos negociar tempo e tamanho de projeto.
-                    </p>
-                    <img class="solution--img" src="https://appmaster.io/api/_files/PqV7MuNwv89GrZvBd4LNNK/download/"
-                        alt="API">
-                </div>
-                <div class="solution">
-                    <h3 class="solution--title">Desenvolvimento de APIs sob demanda</h3>
-                    <p class="solution--description">
-                        lidar com backend por der um desafio para muitas pessoas, pensando nisso
-                        ofereço serviço para o desenvolvimento de APIs sob demanda, faço o seu backend de maneira rápida
-                        e precisa utilizando Node.js e express. Porem caso precise de implementação em utra tecnologia
-                        podemos negociar tempo e tamanho de projeto.
-                    </p>
-                    <img class="solution--img" src="https://appmaster.io/api/_files/PqV7MuNwv89GrZvBd4LNNK/download/"
-                        alt="API">
+        <div id="about"></div>
+
+        <section>
+            <div class="container">
+                <h3 class="title--session">Sobre</h3>
+                <div class="about--area">
+                    <figure class="about--picture">
+                        <img src="https://media.licdn.com/dms/image/D4D03AQEzCrCcGXWjkQ/profile-displayphoto-shrink_800_800/0/1691963696195?e=1706140800&v=beta&t=9CYQuuULNSwLmpn_KRrRWunl8NKuP1-09-TpIy2AKl4"
+                            alt="foto profissional" class="perfil"><!-- --img -->
+                    </figure>
+                    <div class="about--text">
+                        <blockquote>
+                            <p>
+                                Meu nome é Victor Luiz e sou apaixonado por jogos FPS e filmes de ação. Estudo
+                                programação front-end há alguns anos, sou formado em Análise e Desenvolvimento de
+                                Sistemas e continuo me aprimorando com cursos livres. Meu objetivo profissional é ser um
+                                desenvolvedor de software front-end altamente qualificado.
+                                Atualmente, estou focado em cursos de desenvolvimento web, tratando de assuntos como
+                                HTML, CSS, JavaScript, Bootstrap, Node.js, React.Js entre outros conteúdos. O mais
+                                recente deles é um de Node na instituição Cubos Academy. Sou determinado, e persistente.
+                                e sei que com esforço vou me tornar um desenvolvedor front-end de sucesso, trazendo
+                                soluções funcionais e inovadoras para o universo digital.
+                            </p>
+                        </blockquote>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section><!-- --sobre -->
 
-        <!-- Sobre Mim -->
-        <section id="about" class="content-section">
-            <h2 class="section--title">Sobre Mim</h2>
-            <img src="https://i0.wp.com/kenzie.com.br/blog/wp-content/uploads/2020/12/kenzie_blog_front-end.jpg?fit=1200%2C630&ssl=1"
-                alt="Desenvolvimento Web" class="banner-img">
-            <p>Sou um desenvolvedor web apaixonado por tecnologia. Especializado em HTML, CSS e JavaScript, estou sempre
-                buscando me atualizar e aprender mais.</p>
-        </section>
+        <div id="projects"></div>
 
-        <!-- Habilidades -->
-        <section id="skills" class="content-section">
-            <h2 class="section--title">Habilidades</h2>
-            <img src="https://i0.wp.com/kenzie.com.br/blog/wp-content/uploads/2020/12/kenzie_blog_front-end.jpg?fit=1200%2C630&ssl=1"
-                alt="Desenvolvimento Web" class="skills-img">
-            <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>JavaScript ES6+</li>
-                <li>React.js</li>
-            </ul>
-        </section>
-
-        <!-- Projetos -->
-        <section id="projects" class="content-section">
-            <h2 class="section--title">Projetos</h2>
-
-            <div class="project-card">
-                <img src="assets/img/proj1.png" alt="Projeto 1">
-                <div class="project-info">
-                    <h3>Projeto 1</h3>
-                    <p>Descrição do Projeto 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <a href="https://medicenter-projectt.netlify.app" target="_blank" class="project-link">
-                        Ver Projeto
-                    </a>
-                </div>
+        <section>
+            <div class="container">
+                <h3 class="title--session">Projetos</h3>
+                <div class="blog-card">
+                    <div class="meta">
+                        <div class="photo bg-project1"></div>
+                        <ul class="details">
+                            <li class="author"><a href="#">Victor Luiz</a></li>
+                            <li class="date">Abril de 2022</li>
+                            <li class="tags">
+                                <ul>
+                                    <li><a href="#">HTML</a></li>
+                                    <li><a href="#">CSS</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="description">
+                        <h1>Site Medi Center</h1>
+                        <h2>Web Site</h2>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto
+                            obcaecati
+                            enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
+                        <p class="read-more">
+                            <a href="https://medicenter-projectt.netlify.app" target="_blank">Ver Projeto</a>
+                        </p>
+                    </div>
+                </div><!-- --card -->
+                <div class="blog-card alt">
+                    <div class="meta">
+                        <div class="photo bg-project2"></div>
+                        <ul class="details">
+                            <li class="author"><a href="#">Victor Luiz</a></li>
+                            <li class="date">Agosto de 2022</li>
+                            <li class="tags">
+                                <ul>
+                                    <li><a href="#">Html</a></li>
+                                    <li><a href="#">Css</a></li>
+                                    <li><a href="#">JavaScript</a></li>
+                                    <li><a href="#">Bootstrap</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="description">
+                        <h1>One Page Layout</h1>
+                        <h2>Single Page Application (SPA)</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati
+                            enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
+                        <p class="read-more">
+                            <a href="https://one-page-layoutt.netlify.app" target="_blank">Ver Projeto</a>
+                        </p>
+                    </div>
+                </div><!-- --card -->
             </div>
+        </section><!-- --projetos -->
 
-            <div class="project-card">
-                <img src="link_do_projeto2.jpg" alt="Projeto 2">
-                <div class="project-info">
-                    <h3>Projeto 2</h3>
-                    <p>Descrição do Projeto 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <a href="https://one-page-layoutt.netlify.app" target="_blank" class="project-link">Ver Projeto</a>
-                </div>
+        <div id="services"></div>
+
+        <section>
+            <div class="container">
+                <h3 class="title--session">Serviços</h3>
+                <div class="services-container">
+                    <div class="service">
+                        <img src="assets/img/APIs.png" alt="Imagem do Serviço 1">
+                        <h4>Desenvolvimento de APIs</h4>
+                        <p>
+                            sou capaz de desenvolver APIs (Application Programming Interface) robustas e
+                            escaláveis utilizando Node.js. Desde a
+                            concepção até a implementação, garantindo
+                            comunicação segura e confiável entre diferentes sistemas.
+                        </p>
+                    </div> <!-- service -->
+                    <div class="service">
+                        <img src="assets/img/FrontEnd.webp" alt="Imagem do Serviço 1">
+                        <h4>Desenvolvimento Front End</h4>
+                        <p>
+                            Sou especialista em criar interfaces de usuário cativantes e funcionais. Utilizo as mais
+                            recentes tecnologias front-end para desenvolver designs intuitivos, responsivos e atraentes,
+                            garantindo a melhor experiência para os usuários finais.
+                        </p>
+                    </div> <!-- service -->
+                    <div class="service">
+                        <img src="assets/img/Aulas.avif" alt="Imagem do Serviço 1">
+                        <h4>Ministração de Aulas de Programação</h4>
+                        <p>
+                            Com vasta experiência na área, ofereço aulas personalizadas de programação. Minha
+                            metodologia foca em transmitir conhecimentos de forma clara e prática, visando capacitar os
+                            alunos a desenvolverem suas habilidades de programação.
+                        </p>
+                    </div> <!-- service -->
+                    <div class="service">
+                        <img src="assets/img/consultoria.jpg" alt="Imagem do Serviço 1">
+                        <h4>Consultoria Em Teste de Qualidade</h4>
+                        <p>
+                            Ofereço serviços de consultoria para garantir a qualidade de software em todos os aspectos.
+                            Desde análises detalhadas até testes abrangentes, ajudo a identificar falhas, melhorar
+                            processos e assegurar serviços de software confiáveis e de alto desempenho.
+                        </p>
+                    </div> <!-- service -->
+                    <div class="service">
+                        <img src="assets/img/dashBoard.webp" alt="Imagem do Serviço 1">
+                        <h4>Criação de Dashboards em Excel e Power BI</h4>
+                        <p>
+                            Realizo a criação de dashboards dinâmicos e visualmente atrativos utilizando
+                            ferramentas como Excel e Power BI. Com habilidades avançadas nessas plataformas, sou capaz
+                            de transformar dados complexos em insights claros e acionáveis. Meu foco é desenvolver
+                            painéis personalizados que auxiliam na tomada de decisões estratégicas, oferecendo análises
+                            detalhadas e visuais envolventes.
+                        </p>
+                    </div> <!-- service -->
+                    <div class="service">
+                        <img src="assets/img/monitoria.avif" alt="Imagem do Serviço 1">
+                        <h4>Monitoria em tecnologia</h4>
+                        <p>
+                            Ofereço serviços de monitoria em tecnologia para auxiliar estudantes e profissionais na
+                            compreensão de conceitos e práticas avançadas. Através de sessões personalizadas, abordo
+                            temas específicos, promovendo o aprendizado e aprimoramento contínuo.
+                        </p>
+                    </div> <!-- service -->
+                </div><!-- --services-container -->
             </div>
+        </section><!-- --services -->
 
-            <div class="project-card">
-                <img src="link_do_projeto2.jpg" alt="Projeto 2">
-                <div class="project-info">
-                    <h3>Projeto 2</h3>
-                    <p>Descrição do Projeto 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <a href="https://awax-projectt.netlify.app" target="_blank" class="project-link">Ver Projeto</a>
-                </div>
-            </div>
+        <div id="contact"></div>
 
-            <div class="project-card">
-                <img src="link_do_projeto2.jpg" alt="Projeto 2">
-                <div class="project-info">
-                    <h3>Projeto 2</h3>
-                    <p>Descrição do Projeto 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <a href="https://starbucks-projectt.netlify.app" target="_blank" class="project-link">
-                        Ver Projeto
-                    </a>
+        <section>
+            <div class="container">
+                <div class="title--session">Contato</div>
+                <div class="contact-info">
+                    <div class="card--contact">
+                        <i class="card--contact-icon far fa-envelope"></i>
+                        <p>victor.silva208@fatec.sp.gov.br</p>
+                    </div>
+
+                    <div class="card--contact">
+                        <i class="card--contact-icon fas fa-phone"></i>
+                        <p>(11) 98323-8181</p>
+                    </div>
+
+                    <div class="card--contact">
+                        <i class="card--contact-icon fas fa-map-marker-alt"></i>
+                        <p>São Paulo, BR</p>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
-
+    <footer>
+        <span class="copyRhigts">&copy; Todos os Direitos Reservados</span>
+    </footer>
     <script src="assets/js/menu.js"></script>
     <script src="assets/js/switchTheme.js"></script>
+    <script src="assets/js/contact.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,7 @@
+#about,
+#projects,
+#services,
+#contact {
+    height: 3em;
+    scroll-behavior: smooth;
+}

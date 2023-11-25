@@ -1,17 +1,27 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const themeToggle = document.getElementById("themeToggle");
     let darkThemeEnabled = false;
 
-    themeToggle.addEventListener("click", () => {
+    document.getElementById("themeToggle").addEventListener("click", () => {
         darkThemeEnabled = !darkThemeEnabled;
-        let body = document.getElementById("body");
+        const body = document.getElementById("body");
+        const cards = document.querySelectorAll(".card-content");
 
         if (darkThemeEnabled) {
-            body.className = "dark-theme"
+            body.classList.toggle("dark-theme");
+            body.classList.toggle("light-theme");
+            // cards.forEach(card => {
+            //     card.classList.remove("light-card");
+            //     card.classList.add("dark-card");
+            // });
             document.querySelector(".themeIcon").setAttribute('src', 'assets/img/sun.png');
         }
         else {
-            body.className = "light-theme";
+            body.classList.toggle("dark-theme");
+            body.classList.toggle("light-theme");
+            // cards.forEach(card => {
+            //     card.classList.remove("dark-card");
+            //     card.classList.add("light-card");
+            // });
             document.querySelector(".themeIcon").setAttribute('src', 'assets/img/moon.png');
         }
     });

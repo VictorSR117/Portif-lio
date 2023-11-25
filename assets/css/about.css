@@ -1,0 +1,24 @@
+.about--area {
+    display: flex;
+    flex-direction: column;
+    border: 1px outset black;
+    border-radius: 1em;
+    box-shadow: 1px 1px 10px black;
+    padding: 2em;
+}
+
+.about--picture {
+    display: flex;
+}
+
+.about--text blockquote p {
+    margin-top: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    text-indent: 1em;
+}
+
+.perfil {
+    width: 40%;
+    margin: 0 auto;
+}
