@@ -5,7 +5,7 @@
     gap: 15px;
 }
 
-.social--media a img {
+.media--icon {
     mix-blend-mode: multiply;
     width: 3em;
 }
