@@ -9,6 +9,14 @@
     background-image: url('../img/proj2.png');
 }
 
+.bg-project3 {
+    background-image: url('../img/Awax.png');
+}
+
+.bg-project4 {
+    background-image: url('../img/Starbucks.png');
+}
+
 .blog-card {
     display: flex;
     flex-direction: column;
