@@ -1,5 +1,19 @@
+.social--media {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 15px;
+}
+
+.social--media a img {
+    mix-blend-mode: multiply;
+    width: 3em;
+}
+
 .copyRhigts {
     display: flex;
-    align-items: center;
-    text-align: center;
+    justify-content: center;
+    margin: 1em 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
 }
