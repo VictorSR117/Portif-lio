@@ -1,6 +1,6 @@
-document.querySelectorAll('a').forEach(function (anchor) {
-    anchor.addEventListener('click', function (e) {
-        e.stopPropagation();
+document.querySelectorAll('a').forEach(anchor => {
+    anchor.addEventListener('click', event => {
+        event.stopPropagation();
     });
 });
 

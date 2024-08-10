@@ -21,6 +21,7 @@
     align-items: center;
     color: #FAFAFA;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .card--contact-icon {
