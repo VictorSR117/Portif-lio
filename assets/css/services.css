@@ -53,5 +53,7 @@
 @media (min-width: 836px) {
     .services-container {
         justify-content: space-between;
+        max-width: 1400px;
+        margin: 0 auto;
     }
 }
